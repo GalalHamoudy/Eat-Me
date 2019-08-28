@@ -1,0 +1,1310 @@
+:root{
+    --border-root:#139459 ;
+    --background-all-root: #3e4545;
+    --background-root:#0a0d0d;
+}
+/*============================================== all ==============*/
+body{
+    background-color: black;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.up-up{
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    font-size: 47px;
+    text-align: center;
+    color: black;
+    z-index: 300;
+    background: black;
+    color: white;
+    padding: 0px 12px;
+    cursor: pointer;
+    border: 1px solid;
+}
+/*--start---- Icon --------*/
+
+.lolo{
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    top: 608px;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 8;
+    border: 1px solid;
+}
+.icon-f{
+    position: fixed;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background-image: url(../img/f.jpg);
+    top: 456px;
+    z-index: 4;
+    background-size: contain;
+    border: 0px;
+    cursor: pointer;
+    border: 2px solid var(--border-root);
+    
+}
+.icon-i{
+    position: fixed;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background-image: url(../img/in.jpg);
+    top: 507px;
+    z-index: 4;
+    background-size: contain;
+    border: 0px;
+    cursor: pointer;
+    border: 2px solid var(--border-root);
+}
+.icon-t{
+    position: fixed;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background-image: url(../img/t.jpg);
+    top: 557px;
+    z-index: 4;
+    background-size: contain;
+    border: 0px;
+    cursor: pointer;
+    border: 2px solid var(--border-root);
+}
+#facebook-log{
+    position: fixed;
+    width: 230px;
+    height: 348px;
+    top: 95px;
+    z-index: 7;
+    background-color: #98b3b3;
+    opacity: .8;
+    border: 3px solid var(--border-root);
+    border-radius: 16px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    display: none;
+}
+#inst-log{
+    position: fixed;
+    width: 230px;
+    height: 348px;
+    top: 95px;
+    z-index: 7;
+    background-color: #98b3b3;
+    opacity: .8;
+    border: 3px solid var(--border-root);
+    border-radius: 16px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    display: none; 
+}
+#tewet-log{
+    position: fixed;
+    width: 230px;
+    height: 348px;
+    top: 95px;
+    z-index: 7;
+    background-color: #98b3b3;
+    opacity: .8;
+    border: 3px solid var(--border-root);
+    border-radius: 16px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    display: none;   
+}
+.in-facebook{
+    width: 164px;
+    height: 7px;
+}
+.picture-facebook{
+    width: 30px;
+    height: 30px;
+}
+.button-face{
+    float: right;
+    background-color: #a9b6b6;
+    color: black;
+    border-radius: 50%;
+    width: 38px;
+    height: 39px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+/*--end---- Icon --------*/
+/*--start---- first nav --------*/
+
+.first-nav{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 3px solid var(--border-root);
+    border-top: 3px solid var(--border-root);
+    height: 69px;
+    background-color:var(--background-all-root);
+    z-index:1000;
+    font-family: 'Indie Flower', cursive;
+}
+.link{
+    display: inline-flex;
+    padding: 14px;
+    padding-left: 60px;
+    background-color:var(--background-root);
+    border-color: black;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    margin-right: -62px;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 40px;
+    color: #6a6e81;
+    margin-top: 7px;
+}
+.link:hover{
+    opacity: 1;
+    background-color:black;
+    color: white;
+    transition: all 1s;
+    cursor: pointer;
+}
+.logo {
+    display: inline-flex;
+    padding: 21px;
+    background-color: #ffffff;
+    color: black;
+    border-color: black;
+    float: left;
+    padding-right: 72px;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    font-size: 24px;
+    font-weight: 600;
+}
+.logo:hover{
+    opacity: 1;
+    background-color:black;
+    color: white;
+    transition: all 1s;
+    cursor: pointer;
+}
+.active{
+    background-color:black;
+    color: white; 
+    cursor: auto;
+    display: inline-flex;
+    padding: 14px;
+    padding-left: 60px;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    margin-right: -62px;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+/*--end---- first nav --------*/
+/*------start-----------footer---*/
+
+.footer{
+        background-color: var(--background-all-root);
+    border: 2px solid var(--border-root);
+    border-radius: 30px;    
+    margin: 0px 5px;
+    margin-top: 30px;
+}
+.footer-1{
+ display: inline-block;
+    width: 30%;
+    background-color: #758b8b;
+    margin: 20px;
+    text-align: center;
+    height: 363px;
+    font-size: 20px;
+    position: absolute;
+    left: 31%;
+    font-weight: 900;
+    line-height: 37px;
+        border: 2px solid var(--border-root);
+    border-radius: 20px;
+}
+.footer-2{
+ display: inline-block;
+    position: absolute;
+    left: 66%; 
+    height: 363px;
+    padding: 0px 36px; 
+    width: 24%;
+    background-color:#758b8b ;
+    margin: 20px;
+    border: 2px solid var(--border-root);
+    border-radius: 20px;
+    text-align: center;
+}
+.footer-3{
+  display: inline-block;
+    padding: 20px;
+    height: 326px; 
+    width: 23%; 
+    background-color:#758b8b ;
+    margin: 20px;
+            border: 2px solid var(--border-root);
+    border-radius: 20px;
+}
+.f-ends{
+    display: block;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+}
+.f-ends:hover{
+    color: blue;
+    transition: all 1s;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue;
+    background-color: #92a7a7;
+}
+.footer-e-0{
+    float: left; 
+    font-family: 'Indie Flower', cursive;
+    border-bottom: 1px solid;
+}
+.footer-pic-0{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 12px;
+}
+.footer-pic-1{
+    width: 97px;
+    height: 97px;
+    border: 2px solid var(--border-root);
+}
+.footer-pic-2{
+    width: 97px;
+    height: 97px;
+    float: right;
+    border: 2px solid var(--border-root);
+}
+.of-end{
+  font-family: 'Indie Flower', cursive; 
+    font-size: 17px;
+    color: #000;
+}
+.mido{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #98b3b3;
+        height: 35px;
+    padding-top: 10px;
+    margin: 10px 0px;
+    border: 2px solid var(--border-root);
+}
+
+/*------end-----------footer---*/
+
+/*============================================== all ==============*/
+
+
+
+
+/*-----start------------open---------------------*/
+
+@keyframes back{
+    10%{background-image: url(../img/place/d.jpg)}
+    20%{background-image: url(../img/place/z.jpg)}
+    30%{background-image: url(../img/place/zz.jpg)}
+    40%{background-image: url(../img/place/w.jpg)}
+    50%{background-image: url(../img/place/ww.jpg)}
+    60%{background-image: url(../img/place/ff.jpg)}
+    70%{background-image: url(../img/place/ffff.jpg)}
+    80%{background-image: url(../img/place/dddd.jpg)}
+    90%{background-image: url(../img/pepol/q.jpg)}
+    100%{background-image: url(../img/pepol/qq.jpg)} 
+}
+.open-all-hhh{
+    width: 100%;
+    background-color: #000000b8;
+    overflow: auto;
+    clip-path: circle(51.2% at 49% 0);
+    height: 657px;
+}
+.open-link{
+    display: inline-flex;
+    float: right;
+    margin: 9px 20px;
+    background-color:#252828 ;
+    padding: 7px 26px;
+    border-radius: 10px 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: white;
+    border: 1px solid;
+}
+.open-link:hover{
+  background-color:#000;
+    box-shadow: 0px 0px 18px 6px white;
+    color: white;
+    opacity: 1 ;
+    cursor: pointer;
+  transition: all 1s;
+}
+.open-nav-e{
+    position: fixed;
+    background-color:#252828 ;
+    width: 46%;
+    height: 42px;
+    border-radius: 50px;
+    top: 93%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1px;
+    margin-left: 348px;
+    color: white;
+    border: 2px solid;
+}
+.open-nav-e:hover{
+    transition: all 1s;
+    width: 100%;
+    margin-left: 0px;
+}
+.open-con-1{
+    position: absolute;
+    top: 100px;
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    left: 390px;
+    font-family: 'Indie Flower', cursive;
+}
+.open-h1, .open-h2{
+    padding: 17px 31px;
+    background-color:#252828;
+    opacity: .7;
+    box-shadow: 0px 0px 18px 6px white;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.open-h1:hover, .open-h2:hover,.welcoming:hover{
+    animation: well 10s ease 0s;
+}
+.open-nav-u{
+    overflow: auto;
+    padding-right: 147px;
+}
+.open-con-2{
+    position: absolute;
+    top: 321px;
+    left: 600px;
+    padding: 20px 20px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+    color: #FFf;
+    background-color:#252828;
+    border-radius: 50%;
+    border: 3px solid;
+    box-shadow: 0px 0px 18px 10px white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.open-con-2:hover{
+    color: white;
+    background-color: black;
+    transition: all 1s;
+    box-shadow: 0px 0px 18px 15px white;
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    
+}
+
+/*-------end----------open---------------------*/
+
+
+
+
+
+
+
+
+
+
+/*-start-home css===========================================================================*/
+
+/*--start---- welcome --------*/
+
+.welcome{
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/pepol/qq.jpg);
+    background-size: cover;
+    font-family: 'Rock Salt', cursive;
+     
+}
+.welcoming{
+    background-color: #556a6a;
+    opacity: .7;
+    padding: 20px;
+    position: absolute;
+    left: 270px;
+    top: 200px;
+    text-align: center;
+    border: 3px solid var(--border-root);
+    border-radius: 16px;
+}
+
+/*--end---- welcome --------*/
+/*---start--pics&video------*/
+
+.home-video-all{
+    padding-bottom: 44px;
+    background-image: url(../img/place/d.jpg);
+    background-size: contain;
+}
+
+.home-video{
+    width: 716px;
+    border: 10px double var(--border-root);
+    margin: 108px 306px;
+    margin-bottom: 190px;
+    box-shadow: 0px 0px 18px 6px white;
+}
+.home-pics-2{
+    padding-bottom: 44px;
+    background-image: url(../img/place/d.jpg);
+    background-size: contain;
+}
+.home-pic{
+    padding: 0px 150px;
+}
+.home-pics{
+    width: 299px;
+    height: 190px;
+    margin: 20px;
+    border: 4px solid var(--border-root);
+    
+}
+.home-pics:hover,.home-pics-c:hover,.food-1:hover{
+    transition: all 1s;
+    box-shadow: 0px 0px 10px 10px white; 
+    transform: scale(1.1 , 1.1);
+}
+.welcoming-3{
+    background-color: #313c3c;
+    opacity: 1;
+    padding: 15px 0px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 28px;
+    text-shadow: 6px 6px 4px #000;
+    margin: 10px 0px;
+    font-weight: 900;
+    border-bottom: 3px solid var(--border-root);
+    border-top: 3px solid var(--border-root);
+}
+
+/*---end--pics&video------*/
+.our-clients{
+    background-color: #293434 ;
+    border-bottom: 3px solid var(--border-root);
+    border-top: 3px solid var(--border-root)
+}
+.home-pics-c{
+    width: 153px;
+    height: 72px;
+    margin: 20px;
+    border: 4px solid var(--border-root);
+    background-color: white;
+    padding: 10px;
+}
+
+
+/*Div-2 $$ Div-4>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.d-2{
+    flex-direction: row-reverse;
+    text-align: right;
+    padding: 2em 200px;
+    background-color: #363a43;
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+    
+}
+.img-1{
+    margin: 0 0 2em 3em;
+    border-radius: 100%;
+    width: 17em;
+    overflow: hidden;
+        border: 0;
+    display: inline-block;
+    position: relative;
+    margin-left: 0px;
+    width: 245px;
+}
+.d-2-2{
+      color: #ffffff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 16.5pt;
+    line-height: 1.65;  
+    margin-right: 0px;
+    width: 620px;
+    float: left;
+    padding-top: 77px;
+}
+.h-2{
+   padding-bottom: 1em;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+.p-2{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1.65;
+}
+.img-1:hover,.img-2:hover{
+      transition: all 1s;
+    box-shadow: 0px 0px 10px 10px white; 
+    transform: scale(1.1 , 1.1);  
+}
+/*Div-3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.d-3{
+        flex-direction: row-reverse;
+    text-align: left;
+   clip-path: polygon(0 0, 100% 25%, 100% 75%, 0 100%);
+        margin: -143px 0px;
+    padding: 2em 200px;
+    background-color: #28302f;
+    font-family: 'Pacifico', cursive;
+}
+.img-2{
+    margin: 0 0 2em 3em;
+    border-radius: 100%;
+    width: 17em;
+    overflow: hidden;
+        border: 0;
+    display: inline-block;
+    position: relative;
+    margin-left: 0px;
+    width: 245px;
+}
+.d-3-2{
+      color: #ffffff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 16.5pt;
+    line-height: 1.65;  
+    margin-right: 0px;
+    width: 620px;
+    float: right;
+    padding-top: 77px;
+}
+.h-3{
+   padding-bottom: 1em;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+.p-3{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1.65;
+}
+
+
+
+/*-end--home css===========================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--start---Our-Team css===========================================================================*/
+.team-welcome{
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/pexels-photo-1374542.jpg);
+    background-size: cover;
+    font-family: 'Rock Salt', cursive; 
+}
+
+/*-start---- chefs ---------------------------------*/
+
+.team-head-s{
+    width: 100%;
+    background-color: cadetvar(--border-root);
+    text-align: center;
+    height: 27px;
+    margin: 20px 0px;
+    padding-top: 10px;
+    border-top: 2px solid var(--border-root);
+    border-bottom: 2px solid var(--border-root);
+}
+.team{
+    background-color:#98b3b3;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 25px 0px;
+    border-bottom: 3px solid var(--border-root);
+    border-top: 3px solid var(--border-root);
+}
+.words{
+    background-color: var(--background-all-root);
+    padding: 20px 40px;
+    border: 10px solid var(--border-root);
+    width: 38%;
+    text-align: center;
+    display: inline-block; 
+    border-radius: 30px;
+    transform: rotate3d(-11, 7, 0, 55deg);
+    box-shadow: 54px 59px 10px -28px white;
+}
+.words:hover{
+    transition: all 2s;
+    animation: words 20s ease 0s;
+    border-color:black;
+    z-index: 20;
+}
+@keyframes words {
+    10%{box-shadow: -54px 59px 10px -28px white;transform:rotate3d(-11, -7, 0, 55deg) }
+    20%{box-shadow: 0px 0px 0px -0px white;transform:rotate3d(0, 0, 0, 0deg) }
+    40%{box-shadow: 0px 0px 0px -0px white;transform:rotate3d(0, 0, 0, 0deg) }
+    60%{box-shadow: 0px 0px 0px -0px white;transform:rotate3d(0, 0, 0, 0deg) }
+    80%{box-shadow: 0px 0px 0px -0px white;transform:rotate3d(0, 0, 0, 0deg) }
+}
+.pic{
+    display: inline-flex;
+    width: 320px;
+    height: 320px;
+    margin: 0px 58px 0px 0px;
+    border-radius: 80px 0px;
+}
+.head-name{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 24px;
+    text-shadow: 6px 6px 4px black;
+}
+.head-p{
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 24px; 
+    padding-right: 53px;
+}
+.inf{
+      font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 24px;
+    text-shadow: 6px 6px 4px black;  
+}
+.w-png{
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.w-png:hover{
+    text-decoration:underline;
+    color: var(--border-root)violet;
+    transition: all 1s;
+}
+.team-png{
+    width: 20px;
+}
+
+/*-end---- chefs ---------------------------------*/
+/*-start---- Owner ---------------------------------*/
+
+.owner{
+    background-color: var(--background-all-root);
+    height: 330px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 25px 0px;
+    color: #0d4444;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: larger;
+    font-weight: bold;
+    border: 5px solid var(--border-root);
+    transform: rotate3d(113, -97, 62, 84deg);
+    box-shadow: 81px 59px 43px -18px white;
+}
+.owner:hover{
+    animation: owner 8s ease 0s backwards; 
+}
+@keyframes owner {
+    10%{ box-shadow: 0px 0px 0px 0px black;}
+    20%{transform: rotate3d(0, 0, 0, 0deg);box-shadow: 0px 0px 0px 0px black;}
+    30%{transform: rotate3d(0, 0, 0, 0deg);box-shadow: 0px 0px 0px 0px black;}
+    40%{transform: rotate3d(0, 0, 0, 0deg);box-shadow: 0px 0px 0px 0px black;}
+    50%{transform: rotate3d(0, 0, 0, 0deg);box-shadow: 0px 0px 0px 0px black;}
+    60%{transform: rotate3d(0, 0, 0, 0deg);box-shadow: 0px 0px 0px 0px black;}
+    70%{transform: rotate3d(0, 0, 0, 0deg);box-shadow: 0px 0px 0px 0px black;}
+    80%{transform: rotate3d(0, 0, 0, 0deg);box-shadow: 0px 0px 0px 0px black;}
+}
+.owner:hover{
+    color: black !important;
+    transition: all 2s;  
+}
+.word-a{
+    position: relative;
+    top: -150px;
+    display: inline-flex;
+    padding: 126px;
+    border-radius: 80px 0px;
+    background-color: #98b3b3;
+}
+.word-a:hover{
+        border-radius:0px 80px;
+    border: 6px solid var(--border-root);
+    transition: all 2s;
+}
+.word-b{
+    display: inline-flex;
+    position: absolute;
+    padding: 54px 30px;
+    margin: 1px 54px;
+    border-radius: 80px 0px;
+    background-color: #98b3b3;
+}
+.word-b:hover{
+       border-radius:0px 80px;
+    border: 6px solid var(--border-root);
+    transition: all 2s; 
+}
+.img-m{
+    display: inline-flex;
+}
+.pic-m{
+    display: inline-flex;
+    width: 320px;
+    height: 320px;
+    margin: 0px 58px 0px 0px;
+    border-radius: 80px 0px;
+}
+.pic-m:hover{
+    border-radius:0px 80px;
+    border: 6px solid var(--border-root);
+    transition: all 2s;
+}
+
+/*-End---- Owner ---------------------------------*/
+
+/*Div-2 $$ Div-4>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.d-2a{
+    flex-direction: row-reverse;
+    text-align: right;
+    padding: 2em 200px;
+    background-color: #363a43;
+    transform: rotate3d(-17, 16, 6, 44deg) !important;box-shadow: 31px 31px 20px 0px white;
+}
+.d-2a:hover ,.d-3a:hover{
+    animation: hov 20s ease 0s;
+    backface-visibility: visible;
+}
+@keyframes hov {
+    10%{box-shadow: 0px 0px 0px 0px white;transform: rotate3d(-17, 16, 6, 44deg) !important;}
+    20%{box-shadow: 0px 0px 0px 0px white;transform: rotate3d(-17, 16, 6, 44deg) rotatey(360deg);}
+    30%{box-shadow: 0px 0px 0px 0px white;transform: rotate3d(-17, 16, 6, 44deg) rotatey(360deg);}
+    40%{box-shadow: 0px 0px 0px 0px white;transform: rotate3d(-17, 16, 6, 44deg) rotatey(360deg);}
+    50%{transform: rotate3d(-17, 16, 6, 44deg) !important;box-shadow: 31px 31px 20px 0px white;}
+    60%{transform: rotate3d(-17, 16, 6, 44deg) !important;box-shadow: 31px 31px 20px 0px white;}
+    70%{transform: rotate3d(-17, 16, 6, 44deg) !important;box-shadow: 31px 31px 20px 0px white;}
+}
+.img-1a{
+    margin: 0 0 2em 3em;
+    border-radius: 100%;
+    width: 17em;
+    overflow: hidden;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    margin-left: 0px;
+    width: 245px;
+}
+.d-2-2a{
+      color: #ffffff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 16.5pt;
+    line-height: 1.65;  
+    margin-right: 0px;
+    width: 620px;
+    float: left;
+    padding-top: 77px;
+}
+.h-2a{
+   padding-bottom: 1em;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+.p-2a{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1.65;
+}
+.img-1a:hover,.img-2a:hover{
+      transition: all 1s;
+    box-shadow: 0px 0px 10px 10px white; 
+    transform: scale(1.1 , 1.1);  
+}
+/*Div-3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.d-3a{
+        flex-direction: row-reverse;
+    text-align: left;
+    padding: 2em 200px;
+    background-color: #28302f;
+    font-family: 'Pacifico', cursive;
+    transform: rotate3d(-17, 16, 6, 44deg) !important;
+        box-shadow: 31px 31px 20px 0px white;
+}
+.img-2a{
+    margin: 0 0 2em 3em;
+    border-radius: 100%;
+    width: 17em;
+    overflow: hidden;
+        border: 0;
+    display: inline-block;
+    position: relative;
+    margin-left: 0px;
+    width: 245px;
+}
+.d-3-2a{
+      color: #ffffff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 16.5pt;
+    line-height: 1.65;  
+    margin-right: 0px;
+    width: 620px;
+    float: right;
+    padding-top: 77px;
+}
+.h-3a{
+   padding-bottom: 1em;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+.p-3a{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1.65;
+}
+
+
+/*--end---Our-Team css===========================================================================*/
+
+
+
+
+/*-------start----------the desginer---------------------*/
+
+.d-welcome{
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/single-03.jpg);
+    background-size: cover;
+    font-family: 'Rock Salt', cursive;
+    
+}
+.personal-inf{
+    background-color: #595753;
+    font-weight: 900;
+    font-size: 22px;
+    font-family: 'Indie Flower', cursive;
+    padding: 12px;
+    width: 633px;
+    border-radius: 30px;
+    margin: 50px 20px;
+    display: inline-block;
+}
+li{
+    list-style-type:ethiopic-halehame;
+}
+.i-pic-1{
+    float: right;
+    width: 254px;
+    margin: 55px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px 10px white;
+    margin-right: 168px;
+
+}
+.i-pic-2{
+    float: right;
+    width: 254px;
+    margin: 55px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px 10px white;
+        right: 115px;
+    position: absolute;
+
+}
+.i-pic-3{
+    float: right;
+    width: 254px;
+    margin: 55px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px 10px white;
+    margin-right: 168px;
+    position: absolute;
+    top: 1749px;
+    right: 1px;
+}
+.personal-inf-2{
+  background-color: #595753;
+    font-weight: 900;
+    font-size: 22px;
+    font-family: 'Indie Flower', cursive;
+    padding: 12px;
+    width: 633px;
+    border-radius: 30px;
+    margin: 50px 20px;
+    display: inline-block;
+    text-align: center;
+}
+meter{
+    width: 370px;
+    margin: 0px 128px;
+    height: 32px;
+}
+.glgl-work{
+    background-color: #3e4545;
+    color: white;
+    border-radius: 30px;
+    border: 5px solid #fff;
+    padding: 30px;
+    margin: 20px;
+    font-size: 28px;
+    text-shadow: 6px 6px 4px #000;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.work-pic{
+     background-color: #3e4545;
+    color: white;
+    border-radius: 30px;
+    border: 5px solid #fff;
+    padding: 30px;
+    margin: 20px;
+}
+.oo{
+    width: 1000px;
+    margin: 10px 122px;
+    border: 3px solid var(--border-root);
+}
+.p-o{
+    float: left;
+    border-radius: 50%;
+}
+.glgl-work-l{
+    background-color: #3e4545;
+    color: white;
+    border-radius: 30px;
+    border: 5px solid #fff;
+    padding: 10px 10px;
+    margin: 20px;
+    height: 121px;
+    font-size: 28px;
+    text-shadow: 6px 6px 4px #000;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+
+
+
+
+
+
+/*-------end----------the desginer---------------------*/
+
+
+
+/*-------start----------menu---------------------*/
+
+
+
+.me-welcome{
+     height: 600px;
+    width: 100%;
+    background-image: url(../img/place/ww.jpg);
+    background-size: cover;
+    font-family: 'Rock Salt', cursive;
+}
+.eat{
+    overflow: auto;
+    background-color: #041717;
+    padding-top: 228px;
+    padding-left: 261px;
+}
+
+/*==========================================*/
+.card {
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    width: 266px;
+    height: 350px;
+    background: #000;
+}
+.card .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.card .image img {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.card:hover .image img {
+    opacity: .5;
+    transform: translateX(30%);/*100%*/
+}
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;/*100%*/
+    height: 100%;
+    background: #36342d;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.card .details .center h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.card .details .center h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.card .details .center p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+.card .details .center ul {
+    margin: 10px auto 0;
+    padding: 0;
+    display: table;
+}
+.card .details .center ul li {
+    list-style: none;
+    margin: 0 5px;
+    float: left;
+}
+.card .details .center ul li a {
+    display: block;
+    background: #262626;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transform: .5s;
+}
+.card .details .center ul li a:hover {
+    background: #ff3636;
+}
+.Our-advantages{
+   background-color: var(--background-all-root) ;
+   border: 2px solid var(--border-root);
+border-radius: 30px;
+        padding: 0px 90px;
+}
+.food-1{
+        display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    background-color: #758b8b;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid var(--border-root);
+}
+#gif{
+    font-size: 33px;
+}
+.no-pr{
+    font-size: 30px;
+    color: red !important;
+    font-weight: 900;
+    text-decoration: line-through;
+}
+.yes-pr{
+    font-size: 33px;
+    color: yellow !important;
+    font-weight: 900;
+}
+.pr-but{
+        padding: 10px 50px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+/*-------end----------menu---------------------*/
+
+
+
+
+
+/*-------start----------contact---------------------*/
+
+
+
+.c-start{
+    padding: 20px 200px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+     background-image: url(../img/place/zz.jpg);
+}
+input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #8ca7a7;
+    background-color: #252e2e;
+    color: white;
+}
+textarea{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #8ca7a7 ;
+    background-color:#252e2e ;
+    color: white;
+    height: 200px;
+}
+.c-h1{
+    font-weight: 600;
+    border: 2px solid #8ca7a7;  
+    font-size: 50px;
+    background-color: #553f3f;
+}
+.c-button{
+    padding: 10px 40px;
+    background-color: black;
+    border: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.c-h3{
+      background-color: #000;
+    color: white;
+    width: 115px;
+    margin: 13px auto;
+    padding: 5px 10px;  
+}
+input:focus, textarea:focus, .c-button:hover {
+  box-shadow: 0px 0px 18px 6px white;  
+}
+.con-welcome{
+     height: 600px;
+    width: 100%;
+    background-image: url(../img/chef/sssss.jpg);
+    background-size: cover;
+    font-family: 'Rock Salt', cursive;
+}
+
+
+
+/*--------end---------contact---------------------*/
+
+
+.con-welcome:hover, .me-welcome:hover, .d-welcome:hover, .team-welcome:hover{
+    
+}
+
+
+
+
+
+@keyframes well{
+    10%{transform: rotate(5deg);}
+    20%{transform: rotate(-5deg);}
+    30%{transform: rotate(5deg);}
+    40%{transform:rotate(-5deg);}
+    50%{transform:rotate(5deg);}
+    60%{transform:rotate(-5deg);}
+    70%{transform: rotate(5deg);}
+    80%{transform: rotate(-5deg);}
+    90%{transform:rotate(5deg);}
+    100%{transform: rotate(-5deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
